@@ -18,6 +18,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* CalcAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CalcAppTests.m */; };
+		4C59319D256E6EBA00DF2740 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C59319C256E6EBA00DF2740 /* Calc.m */; };
 		6D1B5B93ACF5224E22036C8E /* libPods-CalcApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A228FD4A706935BDEF26321 /* libPods-CalcApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,8 @@
 		2D02E4901E0B4A5D006451C7 /* CalcApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalcApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7AD05C792993BD4AADF964 /* libPods-CalcApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalcApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		376782081027F45523EA8EA5 /* libPods-CalcApp-CalcAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalcApp-CalcAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C59319B256E6EBA00DF2740 /* Calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
+		4C59319C256E6EBA00DF2740 /* Calc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
 		4EA79F7FB5E9D5EBC97B72DF /* Pods-CalcApp-CalcAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalcApp-CalcAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CalcApp-CalcAppTests/Pods-CalcApp-CalcAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55BAE469D4732A21EFC52957 /* Pods-CalcApp-CalcAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalcApp-CalcAppTests.release.xcconfig"; path = "Target Support Files/Pods-CalcApp-CalcAppTests/Pods-CalcApp-CalcAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E97970772981EABE5E9F430 /* Pods-CalcApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalcApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CalcApp-tvOSTests/Pods-CalcApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				4C59319B256E6EBA00DF2740 /* Calc.h */,
+				4C59319C256E6EBA00DF2740 /* Calc.m */,
 			);
 			name = CalcApp;
 			sourceTree = "<group>";
@@ -194,7 +199,6 @@
 				690358EC6DF76607A62543C4 /* Pods-CalcApp-tvOSTests.debug.xcconfig */,
 				5E97970772981EABE5E9F430 /* Pods-CalcApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -568,6 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C59319D256E6EBA00DF2740 /* Calc.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
