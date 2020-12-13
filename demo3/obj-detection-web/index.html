@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>tf web ObjectDetection</title>
+</head>
+<body>
+  <img src="./assets/images/title.svg" alt="title image">
+  <section class="detection__container">
+    <h1 class="hidden"> main content</h1>
+    <article class="detection__sub_container_1">
+      <h2 class="sub_cont1__title">loading requirements</h2>
+      <p class="sub_cont1__text">COCO-SSD model ready? <span class="modelLoading">Loading ...</span></p>
+    
+      <p class="sub_cont1__phototext">tap on the photo to start the process</p>
+      <div class="box">
+        <img class="box__img" src="" alt="Photo comes here" crossorigin="anonymous">
+      </div>
+      <p class="nothing"></p>
+
+      <form class="sub_cont1__form">
+        <label class="form__label" for="file"></label>
+        <input class="form__input" type="file" name="file" id="file" accept="image/*">
+      </form>
+    </article>
+
+    <article>
+      <h2 class="hidden">logo image</h2>
+      <img src="./assets/images/logo.svg" alt="logo image">
+    </article>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+  <script src="/script.js"></script>
+</body>
+</html>

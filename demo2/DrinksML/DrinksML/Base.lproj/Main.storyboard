@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DrinksML" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YfC-jb-PtN">
+                                <rect key="frame" x="20" y="126" width="374" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What am I drinking?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrC-E4-IC9">
+                                <rect key="frame" x="20" y="74" width="374" height="32"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="28"/>
+                                <color key="textColor" red="0.3490221798" green="0.34901499749999998" blue="0.34901988509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select an image below" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="KCe-9N-3fl">
+                                <rect key="frame" x="20" y="636" width="204" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="Ri5-k9-A4U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQI-K1-uKp">
+                                <rect key="frame" x="63" y="796" width="288" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="c04-IQ-Igp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="SELECT A PHOTO">
+                                    <color key="titleColor" red="0.3490221798" green="0.34901499749999998" blue="0.34901988509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPhotoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B6m-bA-6uY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.95686274509803915" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="KCe-9N-3fl" firstAttribute="top" secondItem="YfC-jb-PtN" secondAttribute="bottom" constant="20" id="04E-ix-vOa"/>
+                            <constraint firstItem="YfC-jb-PtN" firstAttribute="top" secondItem="TrC-E4-IC9" secondAttribute="bottom" constant="27" id="624-gZ-Ncq"/>
+                            <constraint firstItem="TrC-E4-IC9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BYY-FM-1ir"/>
+                            <constraint firstItem="YfC-jb-PtN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JId-GJ-Ua0"/>
+                            <constraint firstItem="KCe-9N-3fl" firstAttribute="top" secondItem="YfC-jb-PtN" secondAttribute="bottom" constant="23" id="Jn2-8i-Nuo"/>
+                            <constraint firstItem="mQI-K1-uKp" firstAttribute="top" secondItem="KCe-9N-3fl" secondAttribute="bottom" constant="20" id="K7y-S1-2UO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mQI-K1-uKp" secondAttribute="trailing" constant="63" id="ScC-o6-WC2"/>
+                            <constraint firstItem="YfC-jb-PtN" firstAttribute="top" secondItem="TrC-E4-IC9" secondAttribute="bottom" constant="20" id="g6D-T0-5wx"/>
+                            <constraint firstItem="mQI-K1-uKp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="iCC-ly-giu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YfC-jb-PtN" secondAttribute="trailing" constant="20" id="jIB-7t-2bf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mQI-K1-uKp" secondAttribute="bottom" constant="30" id="jTg-75-mqb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TrC-E4-IC9" secondAttribute="trailing" constant="20" id="kvC-X6-2rE"/>
+                            <constraint firstItem="KCe-9N-3fl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="x5d-vn-oe4"/>
+                            <constraint firstItem="TrC-E4-IC9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xMw-wc-aKq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="classificationLabel" destination="KCe-9N-3fl" id="PxB-Ke-kA8"/>
+                        <outlet property="imageView" destination="YfC-jb-PtN" id="HxR-Sf-Or6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>

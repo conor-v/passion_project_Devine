@@ -16,3 +16,5 @@ Mijn deliverables van dit project zijn demo's die laten zien wat je kan doen met
 - Wekelijkse updates (voor coach)
 
 [passion project blog](http://conorvanoystaeyen.be/passion_project/)
+
+[portfolio](http://conorvanoystaeyen.be)
