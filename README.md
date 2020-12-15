@@ -1,12 +1,18 @@
 # passion_project_Devine
 
 ## De Klant:
-Ik heb gekozen om niet voor een extrene partner te kiezen. Maar iets voor mij zelf te maken en meer te gaan focusen op een bepaalde technologie binnen deze 5 weken.
+Ik heb gekozen om niet voor een extrene partner te kiezen. Maar iets voor mij zelf te maken en meer te gaan focusen op react native deze 5 weken en zien wat het allemaal kan bereiken.
 
 ## Core Project Statement:
-Ik ga mij de komende 5 weken storten op React native en zien hoe ver ik zou raken binnen dit onderwerp door een aantal demo’s. Binnen de demo’s zou ik willen laten zien dat het mogelijk is om iOS modules over te zetten naar React native zodat je de nieuwste tech kunt gebruiken in je React native apps.
+Is het voordeliger om met React Native, native modules te implementeren vanuit de main thread? Of is het beter om een native app te maken?
 
-Indien dit makkelijk haalbaar is aan de iOS kant zal ik een vergelijking maken met de Android kant, zo kan ik aan tonen welke ML het beste werkt. En kan handig zijn voor latere projecten wetende welke applicaties beter werken in iOS en Android.
+Dit wordt ge test door middel van een machine learning app te maken. In zowel react native met een connectie naar iOS voor core ML als een swift app (native app). Hier na zal er een deel testen worden gedaan om te zien welke beter is of dat het redelijk gelijk loopt.
+
+Bij vraag:
+Kan je dezelfde performers halen met tensorflow in een app als op het web?
+
+dit jaar in februari is het mogelijk om tensorflow te gebruiken in react native en de mogelijk hedden zijn groot. Maar is het wel goed in preformens op dit moment en kan het al deftig functioneren zoals op eht web.
+
 
 ## Deliverables:
 Mijn deliverables van dit project zijn demo's die laten zien wat je kan doen met native modules binnen React Native. Dit zullen een 3 tot 4 tal demo's zijn die van data versturen over ent weer, tot het gebruiken van Core ML in een React Native app.
